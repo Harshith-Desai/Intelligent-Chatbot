@@ -1,0 +1,41 @@
+{
+    "intents" : [
+
+        {
+            "tag" : "greetings",
+            "patterns" : ["hello", "hey", "hi", "good day", "Greetings", "What's up", "how is it going ?"],
+            "responses" : ["Hello!", "Hey!", "What can i do for you?", "Hi there!. How're you doing?"]
+        },
+
+        {
+            "tag" : "goodbye",
+            "patterns" : ["see you", "See you later", "Goodbye", "I am leaving", "Have a good day", "Bye", "cao", "cya", "see ya", "see you sooner or later", "Adios!"],
+            "responses" : ["Sad to see you go!", "Talk to you later", "GoodBye", "Bye :)", "Have a good time!"]
+        }, 
+
+        {
+            "tag" : "name",
+            "patterns" : ["What is your name", "What should i Call you", "What's your name", "Who are you", "Can you tell me your name", "Introduce Yourself", "Give me your Bio"],
+            "responses" : ["You can call me Harsha Bot", "I'm Harsha", "I'm Harsha, the assistant of you"]
+        },
+
+        {
+            "tag" : "hours",
+            "patterns" : ["When are you guys available", "When are you guys open", "hours of operation", "What are your hours"],
+            "responses" : ["All the time", "24 hours each day, every day, full year", "24/7"]
+        },
+
+        {
+            "tag" : "shop",
+            "patterns" : ["I'd like to buy something", "What are your products ?", "What do you recommend ?", "What are you selling?", "What products do you offer?"],
+            "responses": ["We sell laptops starting from 25000", "Apple Brand Laptops", "Dell Brand Laptops", "ASUS Gaming Laptops", "Wireless Mobile Chargers", "Iphone, Samsung, One Plus, Xiamoi Mobiles", "Airpods, Earbuds, One plus Buds", "VR Headset", "Ipad pro"]
+        },
+
+        {
+            "tag" : "location",
+            "patterns" : ["Where are you located?", "Where are you situated?", "Your location?", "Where is your origin?"],
+            "responses" : ["Our Origin is India, we have multiple branches across the country and in the United States also."]
+
+        }
+    ]
+}
